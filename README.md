@@ -1,5 +1,4 @@
 # Google-Colab-Time-Out-Preventer
-# Google Colab Time Out Preventer
 
 This repository contains a code snippet that prevents Google Colab from timeout. Google Colab is a cloud-based platform that allows you to write and execute Python code in your browser, with free access to GPUs and TPUs. However, Google Colab may disconnect your session due to inactivity or network issues, which can cause you to lose your work or progress. This code snippet uses IPython and google.colab modules to click the connect button every 60 seconds automatically, which keeps your session alive and prevents timeout.
 
@@ -20,10 +19,7 @@ To use this repository, you need to have a Google account and access to Google C
 - To learn more about IPython, you can check out this [link](https://ipython.org/).
 - To learn more about google.colab, you can check out this [link](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb).
 
-## Credits
-
-- This repository is created and maintained by asurpbs, a GitHub user with no other information available.
-- The code snippet is adapted from this [Stack Overflow answer](https://stackoverflow.com/a/57113206/13673747) by user [Kuldeep Singh](https://stackoverflow.com/users/11530618/kuldeep-singh).
+## Script :
 ```
 #@title <b>Time Out Preventer (Advanced) </b></strong>
 %%capture
@@ -53,3 +49,8 @@ if AUTO_RECONNECT:
   setInterval(ClickConnect,60000)
   '''))
   ```
+  
+  
+## Credits
+
+- The code snippet is adapted from this [Stack Overflow answer](https://stackoverflow.com/a/57113206/13673747) by user [Kuldeep Singh](https://stackoverflow.com/users/11530618/kuldeep-singh).
