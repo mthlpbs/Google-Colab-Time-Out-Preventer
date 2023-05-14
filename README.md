@@ -1,4 +1,5 @@
 # Google-Colab-Time-Out-Preventer
+Google timeout preventer is a code snippet that prevents Google Colab from timeout. Timeout is when Google Colab disconnects the session due to inactivity or network issues. The code snippet uses IPython and google.colab modules to click the connect button every 60 seconds automatically, which keeps the session alive and prevents timeout.
 ```
 #@title <b>Time Out Preventer (Advanced) </b></strong>
 %%capture
